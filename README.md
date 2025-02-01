@@ -6,7 +6,7 @@ Se trata del proyecto final de la materia **Desarrollo de software con tecnolog�
 
 **Oliver Tavarez Del Valle | _Matrícula_**
 
-**Caroline Ninoska Pérez | _Matrícula_**
+**Caroline Ninoska Pérez | A00112688**
 
 **Cheyernex Manzanillo | _Matrícula_**
 
