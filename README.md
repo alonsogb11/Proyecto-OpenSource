@@ -4,13 +4,13 @@ Se trata del proyecto final de la materia **Desarrollo de software con tecnolog�
 ## _Autores_ 💡
 **Alonso Genao Bernabé | A00114295 | Back-end & front-end** 
 
-**Oliver Tavarez Del Valle | _Matrícula_ | Back-end & front-end**
+**Oliver Tavarez Del Valle | A00113915 | Back-end & front-end**
 
 **Caroline Ninoska Pérez | A00112688 | Front-end**
 
-**Cheyernex Manzanillo | _Matrícula_ | Database**
+**Cheyernex Manzanillo | A00112143 | Database**
 
-**Teófilo Valdez Santos | _Matrícula_ | Back-end & front-end**
+**Teófilo Valdez Santos | A00112545 | Back-end & front-end**
 
 ## _Instalción_ 📦
 _N/A_
