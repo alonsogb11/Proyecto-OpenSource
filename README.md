@@ -6,9 +6,9 @@ Se trata del proyecto final de la materia **Desarrollo de software con tecnolog�
 
 **Oliver Tavarez Del Valle | _Matrícula_ | Back-end & front-end**
 
-**Caroline Ninoska Pérez | A00112688 | Front-end **
+**Caroline Ninoska Pérez | A00112688 | Front-end**
 
-**Cheyernex Manzanillo | _Matrícula_ | Database **
+**Cheyernex Manzanillo | _Matrícula_ | Database**
 
 **Teófilo Valdez Santos | _Matrícula_ | Back-end & front-end**
 
