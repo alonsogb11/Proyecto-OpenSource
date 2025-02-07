@@ -1,10 +1,25 @@
-import Dispensario from './assets/Dispensario.png';
-import Logo from './assets/Logo.png';
-import './Css/Login.css'; // Importa los estilos
-import Remember from './Components/Remember.jsx';
+import Dispensario from '../assets/Dispensario.png';
+import Logo from '../assets/Logo.png';
+import '../Css/Login.css'; 
+import Remember from '../Components/Remember.jsx';
+import { useNavigate } from "react-router-dom";
+import { useState } from "react";
 
 
 function Login() {
+  const navigate = useNavigate();
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+
+  const handleLogin = () => {
+    if (email === "admin@unapec.edu.do" && password === "1234") {
+      navigate("/maindashboard");
+    } else {
+      alert("Credenciales incorrectas");
+    }
+  };
+
+
   return (
     <div className="Bodylogin">
       <div className="Leftside">
@@ -19,7 +34,6 @@ function Login() {
         </div>
         
       </div>
-
 
       <div className="Rightside">
          <div className="Form">
@@ -36,15 +50,15 @@ function Login() {
                 <div className="signbuttons">
                   <div>
                     <label htmlFor="Name">Name</label>
-                     <input type="text" placeholder='Email or phone number' id="Name"/>
+                    <input type="text" placeholder='Email' id="Name" value={email} onChange={(e) => setEmail(e.target.value)} />
                   </div>
                   <div>
                     <label htmlFor="Password">Password</label>
-                     <input type="text" placeholder='Enter password' id="Password"/>
+                    <input type="password" placeholder='Enter password' id="Password" value={password} onChange={(e) => setPassword(e.target.value)} />
                   </div>
                   <Remember />
                 </div>
-                <div><button class="Signin" type="submit">Sign in</button></div>
+                <div><button className="Signin" type="button" onClick={handleLogin}>Sign in</button></div>
               </div>
             </div>
          </div>
