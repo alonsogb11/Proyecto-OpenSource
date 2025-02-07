@@ -1,23 +1,32 @@
-
-.maindashboard {
-    display: flex;
-    flex-direction: column;
-    height: 100vh; /* Solo afecta Maindashboard */
-    width: 100vw;
-    background-color: rgba(240, 241, 243, 1);
-}
-.maindashboard .Navbar{
-    width:100%; 
-    height: 4rem;
-}
-.maindashboard .Bodypage {
-    width:100%;
-    height:60%;
-}
 .maindashboard * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     height: 100%;
     width: 100%;
+}
+.maindashboard {
+    display: flex;
+    flex-direction: column;
+    height: 100vh; 
+    width: 100vw;
+    background-color: rgba(240, 241, 243, 1);
+}
+.maindashboard .Navbar{
+    width:100%; 
+    height: 4rem;
+
+}
+.maindashboard .Bodypage {
+    width:100%;
+    height:42.5rem;
+    padding-left:25%;
+
+}
+.maindashboard .Sidebar{
+    width: 20%;
+    height:42.5rem;
+    position: absolute; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    border-bottom-right-radius: 15px;
 }
