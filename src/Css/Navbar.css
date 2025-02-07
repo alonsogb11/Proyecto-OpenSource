@@ -1,0 +1,49 @@
+
+.Bodynavbar{
+    background-color: rgba(1, 88, 167, 1);
+    padding-left: 25%;
+}
+.content{
+    padding-right: 5%;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+h1{
+    display: flex;
+    font-size: 200%;
+    font-family: "Roboto", serif;
+    font-weight: 500;
+    color:white;
+    align-items: center;
+    
+}
+h2{
+    display: flex;
+    align-items: center;
+    font-size: 100%;
+    font-family: "Roboto", serif;
+    font-weight: 500;
+    color:white;
+}
+.User {
+    display: flex;
+    width:20%;
+    gap: 2%;
+    height: 100%;
+}
+.Userpic{
+    margin-bottom:5%;
+    margin-top: 5%;
+    width: 60px; 
+    height: 45px; 
+    border-radius: 50%; 
+    background-image: url("../assets/User.jpg");
+    background-size: cover; /* Asegura que la imagen cubra todo el contenedor */
+    background-position: center; /* Centra la imagen */
+}
+@media (max-width: 900px) {
+    .Userpic {
+        display: none;
+    }
+}

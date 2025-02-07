@@ -1,0 +1,23 @@
+
+.maindashboard {
+    display: flex;
+    flex-direction: column;
+    height: 100vh; /* Solo afecta Maindashboard */
+    width: 100vw;
+    background-color: rgba(240, 241, 243, 1);
+}
+.maindashboard .Navbar{
+    width:100%; 
+    height: 4rem;
+}
+.maindashboard .Bodypage {
+    width:100%;
+    height:60%;
+}
+.maindashboard * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: 100%;
+    width: 100%;
+}

@@ -57,7 +57,7 @@
   width: 30%; 
   display:flex;
   flex-direction: column;
-  justify-content: space-between; /* Distribuye los elementos con espacio entre ellos */
+  justify-content: space-between; 
   align-items: center;
   background-color: #FFFFFF; 
   padding: 2%;
@@ -78,10 +78,10 @@
         font-weight: normal;
         color: #333;
         margin-bottom: 2%;
-        display: block; /* Para asegurarse de que el label esté en una línea separada */
+        display: block; 
     }
   .Form input {
-    width: 100%; /* Ocupa todo el ancho disponible */
+    width: 100%; 
     padding: 4%;
     background-color: #F2F2F2;
     border: none; /* Elimina el borde */
