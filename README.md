@@ -12,8 +12,9 @@ Se trata del proyecto final de la materia **Desarrollo de software con tecnolog�
 
 **Teófilo Valdez Santos | A00112545 | Back-end & front-end**
 
-## _Instalción_ 📦
+## _Instalación_ 📦
 _N/A_
 
 ## _Información_ ℹ️
-_N/A_
+user login= admin@unapec.edu.do
+password= 1234
